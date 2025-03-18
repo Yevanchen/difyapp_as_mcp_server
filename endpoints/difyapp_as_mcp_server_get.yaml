@@ -1,0 +1,5 @@
+path: "/difyapp_as_mcp_server"
+method: "GET"
+extra:
+  python:
+    source: "endpoints/difyapp_as_mcp_server_get.py" 

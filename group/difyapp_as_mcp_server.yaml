@@ -13,4 +13,5 @@ settings:
       pt_BR: Por favor, insira seu App ID
       ja_JP: アプリIDを入力してください
 endpoints:
-  - endpoints/difyapp_as_mcp_server.yaml
+  - endpoints/difyapp_as_mcp_server_post.yaml
+  - endpoints/difyapp_as_mcp_server_get.yaml

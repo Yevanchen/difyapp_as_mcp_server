@@ -2,4 +2,5 @@ path: "/difyapp_as_mcp_server"
 method: "POST"
 extra:
   python:
-    source: "endpoints/difyapp_as_mcp_server.py"
+    source: "endpoints/difyapp_as_mcp_server_post.py"
+ 
