@@ -41,7 +41,7 @@ Model Context Protocol (MCP) 是一个开放标准，允许AI模型与外部工�
 
 确保您的Dify应用包含至少一个工作流，并且已经正确配置。
 
-### 2. 在Claude Desktop中使用
+### 2. 在客户端使用
 
 1. 打开客户端
 2. 进入设置 > MCP服务器
