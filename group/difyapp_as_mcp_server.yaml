@@ -1,0 +1,16 @@
+settings:
+  - name: app_id
+    type: app-selector
+    required: true
+    label:
+      en_US: App ID
+      zh_Hans: App ID
+      pt_BR: App ID
+      ja_JP: App ID
+    placeholder:
+      en_US: Please input your App ID
+      zh_Hans: 请输入你的 App ID
+      pt_BR: Por favor, insira seu App ID
+      ja_JP: アプリIDを入力してください
+endpoints:
+  - endpoints/difyapp_as_mcp_server.yaml

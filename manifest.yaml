@@ -1,0 +1,37 @@
+version: 0.0.1
+type: plugin
+author: yevanchen
+name: difyapp_as_mcp_server
+label:
+  en_US: difyapp_as_mcp_server
+  ja_JP: difyapp_as_mcp_server
+  zh_Hans: difyapp_as_mcp_server
+  pt_BR: difyapp_as_mcp_server
+description:
+  en_US: Exposes Dify application as an MCP (Model Context Protocol) server, supporting direct calls from Claude and other MCP clients.
+  ja_JP: MCP（モデルコンテキストプロトコル）サーバーとしてDifyアプリケーションを公開し、Claudeと他のMCPクライアントからの直接呼び出しをサポートします。
+  zh_Hans: 将Dify应用程序作为MCP（模型上下文协议）服务器公开，支持从Claude和其他MCP客户端的直接调用。
+  pt_BR: Exponha o aplicativo Dify como um servidor MCP (Protocolo de Contexto do Modelo), suportando chamadas diretas de Claude e outros clientes MCP.
+icon: icon.svg
+resource:
+  memory: 268435456
+  permission:
+    endpoint:
+      enabled: true
+    app:
+      enabled: true
+plugins:
+  endpoints:
+    - group/difyapp_as_mcp_server.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+created_at: 2025-03-18T18:57:45.577235+08:00
+privacy: PRIVACY.md
+verified: false
